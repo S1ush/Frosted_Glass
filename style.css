@@ -13,9 +13,11 @@ main{
     background: white;
     min-height:  80vh;
     width: 60%;
-    background: linear-gradient(to right bottom , rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    background: linear-gradient(to right bottom , rgba(255,255,255,0.6),rgba(255,255,255,0.2));
     border-radius: 1.7em;
-    box-shadow: 1px ,1px ,3px , 25px rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px  rgba(255,255,255,0.1);
+    z-index: 3;
+    backdrop-filter: blur(1.25em);
 
 }
 .circle1,.circle2{
@@ -25,6 +27,8 @@ main{
     width: 15em ;
     border-radius: 50em;
     position: absolute;
+    z-index: 2;
+    box-shadow: 2px 2px 25px rgba(0,0,0,0.1);
 }
 .circle1{
     top: 5%;
